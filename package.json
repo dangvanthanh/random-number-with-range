@@ -1,0 +1,31 @@
+{
+  "name": "random-number-with-range",
+  "version": "0.0.0",
+  "description": "My epic module",
+  "license": "MIT",
+  "repository": "dangvanthanh/random-number-with-range",
+  "author": {
+    "name": "Dang Van Thanh",
+    "email": "dangvanthanh@dangthanh.org",
+    "url": "dangthanh.org"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "xo && ava"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "random",
+    "number",
+    "range"
+  ],
+  "dependencies": {},
+  "devDependencies": {
+    "ava": "^0.14.0",
+    "xo": "^0.14.0"
+  }
+}
