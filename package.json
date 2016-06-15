@@ -1,6 +1,6 @@
 {
   "name": "random-number-with-range",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Random number with range",
   "license": "MIT",
   "repository": "dangvanthanh/random-number-with-range",
@@ -13,7 +13,7 @@
     "node": ">=0.10.0"
   },
   "scripts": {
-    "test": "xo && ava"
+    "test": "standard && ava"
   },
   "files": [
     "index.js"
@@ -25,7 +25,6 @@
   ],
   "dependencies": {},
   "devDependencies": {
-    "ava": "^0.14.0",
-    "xo": "^0.14.0"
+    "ava": "^0.14.0"
   }
 }
